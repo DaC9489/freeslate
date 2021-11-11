@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Freeslate - DaC9489</title>
+  
+  <!--This is the style and you can change stuff from here-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+  image: url('https://wallpaperaccess.com/full/346794.jpg');
+  opacity: 0.66;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+body {
+  background-image: url('https://wallpaperaccess.com/full/346794.jpg');
+  background-repeat: no-repeat;
+}
+
+a:link, a:visited {
+  background-color: #696969;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  }
+a:hover, a:active {
+  background-color: grey;
+  }
+  DIV.mypars {text-align: right}
+  
+</style>
+</head>
+<body>
+
+<div class="header" id="myHeader">
+  <h2>Freeslate</h2>  <a href="https://dac9489.tk">Home</a><a href="/contact/">Contact</a>&emsp;<a href="https://github.com/DaC9489/freeslate/"> <img alt="GitHubRepo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png"width="25" height="25"></a><a href="https://discord.gg/ES52X4aD8w"> <img alt="Discord Join Link" src="https://www.freepnglogos.com/uploads/discord-logo-png/concours-discord-cartes-voeux-fortnite-france-6.png"width="25" height="25"></a>
+  
+</div>
+<div class="">
+
+<div class="content">
+<h1>Header</h1>
+<p>Paragraph Text</p>                   
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+<footer>
+  <p>Template By DaC#9489<br>Copyright &copy;2021 Made By DaC#9489</p>
+</footer>
+</body>
+</html>
