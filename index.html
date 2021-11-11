@@ -1,10 +1,75 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
   <title>Freeslate - DaC9489</title>
   
-<h1>Freeslate</h1>
-<p>paragraph text</p>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+  image: url(https://wallpaperaccess.com/full/346794.jpg);
+  opacity: 0.66;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+body {
+  background-image: url('https://wallpaperaccess.com/full/346794.jpg');
+  background-repeat: no-repeat;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header" id="myHeader">
+  <h2>My Header</h2>
+</div>
+<div class="
+
+<div class="content">
+ <p>DaHub Development is a unique and feature full discord server that includes a couple of roblox scripts for free of cost! DaC is the only developer for DaHub Development and made the showcased scripts DaC is not very good at getting motivation to make scripts</p>                   
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
 
 </body>
 </html>
